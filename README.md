@@ -11,7 +11,7 @@ A graphic sequence is a sequence of numbers which can be the degree sequence of 
 ---
 A sequence of non-negative integers $d_1\geqslant\ldots\geqslant d_n$ can be represented as the degree sequence of a finite simple graph on $n$ vertices **if and only if** $d_1+\ldots+d_n$ is even and:
 
->$\displaystyle{\sum_{i=1}^{k}d_i\leqslant k(k-1)+\sum_{i=k+1}^{n}min(d_i,k)}$, is true for every $k$ in $1\leqslant k\leqslant n$.
+>$\displaystyle{\sum_{i=1}^{k}d_i\leqslant k(k-1)+\sum_{i=k+1}^{n}\min(d_i,k)}$, is true $\forall k\in[1,n]$.
 
 ### Code checking if a sequence is graphic or not
 ---
